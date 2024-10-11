@@ -1,0 +1,11 @@
+# Importação dos pacotes necessários
+import pandas as pd #manipulação de dado em formato de dataframe
+
+# Carregamento da base de dados
+df = pd.read_csv('VarQuanti.csv', delimiter=',')
+
+# Visualização da base de dados
+df
+
+# Escalas de mensuração das variáveis
+df.info()
